@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="3.10" group="system" method="upgrade">
+	<name>PLG_SYSTEM_PREUPVERLOADER</name>
+	<creationDate>28th November, 2023</creationDate>
+	<author>Llewellyn van der Merwe</author>
+	<authorEmail>octoleo@vdm.io</authorEmail>
+	<authorUrl>https://git.vdm.dev/Llewellyn</authorUrl>
+	<copyright>Copyright (C) 2022. All Rights Reserved</copyright>
+	<license>GNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<version>1.0.0</version>
+	<description>PLG_SYSTEM_PREUPVERLOADER_XML_DESCRIPTION</description>
+
+	<!-- Scripts to run on installation -->
+	<scriptfile>script.php</scriptfile>
+
+	<!-- Language files -->
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_system_preupverloader.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_system_preupverloader.sys.ini</language>
+	</languages>
+
+	<!-- Plugin files -->
+	<files>
+		<filename plugin="preupverloader">preupverloader.php</filename>
+		<filename>README.md</filename>
+		<filename>index.html</filename>
+		<folder>language</folder>
+	</files>
+</extension>
